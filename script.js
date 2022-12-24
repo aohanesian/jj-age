@@ -7,6 +7,9 @@ do {
 } while (!(!(userAge < 0) && (!isNaN(userAge))));
 
 switch (typeof userAge === `number`) {
+    case userAge % 100 > 10 && userAge % 100< 20:
+        alert(`Ваш возраст: ${userAge} лет`);
+        break;
     case userAge % 10 === 1:
         alert(`Ваш возраст: ${userAge} год`);
         break;
